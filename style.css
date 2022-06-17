@@ -1,0 +1,241 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+#page1{
+ background-color: white;
+ font-family: 'Lexend Deca';
+ display:flex;
+ align-items: center;
+ justify-content: center;
+
+}
+#main1{
+
+   width: 50%; 
+   margin: auto;
+   margin-top: 20vh;
+   display:flex;
+   min-height:60vh;
+
+}
+
+main .content-two p{
+  min-height:110px;
+  padding-bottom:29px;
+ }
+
+ main .content-three p{
+  min-height:95px;
+ }
+ 
+ main .content-two button{
+  position:relative;
+  top:-11px;
+  left:24px;
+ }
+
+footer a{
+  position:relative;
+  top:391px;
+ }
+ 
+ main .content-one button{
+  min-height:21px;
+  height:21px;
+  box-shadow:none;
+  position:relative;
+  top:21px;
+  left:8px;
+ }
+ 
+ main .content-three button{
+  position:relative;
+  top:4px;
+  left:25px;
+ }
+ 
+.content-one{
+  background-color: hsl(31, 77%, 52%);
+    flex: 1;
+    padding: 1em 2em;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.content-two{
+    background-color: hsl(184, 100%, 22%);
+    flex: 1;
+    padding: 1em 2em;
+
+}
+
+@media only screen and (max-width: 513px) {
+main .content-two button{
+  left:3px;
+ }
+ 
+ 
+ main .content-one{
+  transform:translatex(0px) translatey(0px);
+ }
+ 
+ 
+ main .content-one button{
+  transform:translatex(0px) translatey(0px);
+  left:-9px;
+  top:59px;
+ }
+ 
+
+ main .content-three button{
+  height:21px;
+  top:42px;
+  left:0px;
+ }
+ 
+ 
+}
+.content-three{
+    background-color: hsl(179, 100%, 13%);
+    flex: 1;
+
+    padding: 1em 2em;
+
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+h3{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 15px;
+}
+p{
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 10px;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 15px;
+    font-size: 10px;
+    margin-top: 60px;
+    padding: 4px 2px;
+    border: 1px solid white;
+    width: 70px;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: red;
+  }
+ 
+
+   @media only screen and (max-width: 250px) {
+    *{
+      padding:   0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    
+
+    #page2{
+      background-color: rgb(9, 7, 29);
+      padding: 10px;
+      display: grid;
+      grid-template-rows: 1fr 5fr 5fr 1fr;
+      grid-gap: 5px;
+    }
+
+
+    #item2{
+
+        height: 185px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 10px;
+      }
+
+    #item3{
+
+        height: 185px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+      #a{
+        background-color: rgb(255, 23, 11);
+      }
+      #b{
+        background-color: orange;
+      }
+
+      #g{
+        background-color: rgb(16, 181, 16);
+      }
+      #d{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px
+      }
+      #d > div{
+        background-color: rgb(50, 201, 251);
+      }
+
+     
+    }
+
+    *{
+      padding:   0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    #page2{
+      background-color: rgb(9, 7, 29);
+      padding: 50px;
+      display: grid;
+      grid-template-rows: 1fr 5fr 5fr 1fr;
+      grid-gap: 5px;
+    }
+
+    #item2{
+
+        height: 185px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 10px;
+      }
+
+    #item3{
+
+        height: 185px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+      #a{
+        background-color: rgb(255, 23, 11);
+      }
+      #b{
+        background-color: orange;
+      }
+
+      #g{
+        background-color: rgb(16, 181, 16);
+      }
+      #d{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px
+      }
+      #d > div{
+        background-color: rgb(50, 201, 251);
+      }
